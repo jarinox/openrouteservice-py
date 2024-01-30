@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orspytest"
+version = "7.1.0.post6"
+authors = [
+    {name = "HeiGIT gGmbH", email = "support@smartmobility.heigit.org"},
+]
+description = "Python client for requests to openrouteservice API services"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["routing","accessibility","router","OSM","ORS","openrouteservice","openstreetmap","isochrone","POI","elevation","DEM","swagger"]
+license = {text = "Apache 2.0"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "urllib3 >= 1.15",
+    "six >= 1.10",
+    "certifi",
+    "python-dateutil"
+]
+
+[project.urls]
+"Homepage" = "https://openrouteservice.org/"
+"Forum" = "https://ask.openrouteservice.org/c/sdks"
+"API Documentation" = "https://openrouteservice.org/documentation/"
+"API Terms of service" = "https://openrouteservice.org/terms-of-service/"
